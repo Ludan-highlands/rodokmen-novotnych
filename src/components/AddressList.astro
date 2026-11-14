@@ -1,0 +1,17 @@
+---
+import { href, mapAddress } from '../lib/data.js';
+
+const { entries, linkSource = true } = Astro.props;
+---
+<ul class="address-list">
+  {entries.map(({ town, number, context, record }) => (
+    <li>
+      <a class="address-link" href={mapAddress(town, number)} target="_blank" rel="noopener">
+        {town} čp. {number} <span aria-hidden="true">↗</span>
+        <span class="small muted">Mapy.com</span>
+      </a>
+      <div>{context}</div>
+      {linkSource && <a class="small" href={href.record(record)}>Pramen</a>}
+    </li>
+  ))}
+</ul>

@@ -1,0 +1,20 @@
+{
+  "name": "rodokmen-web",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "data": "python3 -I tools/export_web.py --nasazeni",
+    "dev": "npm run data && astro dev",
+    "build": "npm run data && astro build && pagefind --site dist",
+    "preview": "astro preview --ignore-lock",
+    "nahled": "npm run build && npm run preview"
+  },
+  "dependencies": {
+    "astro": "^7.3.8",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2"
+  }
+}

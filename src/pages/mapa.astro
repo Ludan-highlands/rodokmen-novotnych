@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import AddressList from '../components/AddressList.astro';
+import { addresses } from '../lib/data.js';
+
+const towns = [...new Set(addresses.map((row) => row.town))].sort((a, b) => a.localeCompare(b, 'cs'));
+---
+<Base title="Domy a mapa">
+  <h1>Domy a mapa</h1>
+  <p class="lead">Čísla popisná z matrik a sčítání pomáhají sledovat domácnosti, sousedy i příbuzné. Kliknutím na adresu ji vyhledáte na Mapy.com.</p>
+  <p class="note">Odkazy hledají dnešní adresu podle obce a čísla. Historické číslování se mohlo změnit.</p>
+  {towns.map((town) => (
+    <section>
+      <h2>{town}</h2>
+      <AddressList entries={addresses.filter((row) => row.town === town).sort((a, b) => a.number - b.number)} />
+    </section>
+  ))}
+</Base>

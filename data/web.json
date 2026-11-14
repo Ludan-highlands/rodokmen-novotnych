@@ -1,0 +1,14 @@
+{
+  "nazev": "Rodokmen Novotných",
+  "popis": "První vydání rodokmenu Novotných ze Škrdlovic. Předci, čísla domů a prameny.",
+  "zapati": "Rodokmen Novotných ze Škrdlovic · 1. vydání",
+  "uvod": {
+    "nadpis": "Novotní ze Škrdlovic",
+    "odstavce": [
+      "První vydání sleduje mužské předky se jménem Novotný. Výchozím bodem je Josef Novotný narozený roku 1880. Jeho rodinu sledujeme přes domy ve Škrdlovicích, sčítací archy a zápisy ve farních matrikách.",
+      "U Erharda Novotného se linie obrací k jeho matce Kateřině. Erhard se roku 1856 narodil mimo manželství a v křestním zápisu není uveden otec. Jméno Novotný tak dál sledujeme přes Kateřinu k jejím rodičům Tomášovi Novotnému a Rozálii Škarohlídové."
+    ]
+  },
+  "prihlaseni": { "otevreny": true },
+  "citlive_schvaleno": ["V křestním zápisu je nemanželským synem Kateřiny Novotné."]
+}

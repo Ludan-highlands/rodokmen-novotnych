@@ -1,0 +1,20 @@
+---
+import { pathFor } from '../lib/data.js';
+import Base from '../layouts/Base.astro';
+---
+<Base title="Hledat">
+  <h1>Hledat</h1>
+  <p class="lead">Jména, místa, čísla domů, povolání – hledá se ve všech stránkách webu.</p>
+  <link href={pathFor('/pagefind/pagefind-ui.css')} rel="stylesheet" />
+  <div id="search"></div>
+  <script is:inline src={pathFor('/pagefind/pagefind-ui.js')}></script>
+  <script is:inline define:vars={{ baseUrl: pathFor('/') }}>
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.PagefindUI) {
+        new PagefindUI({ element: '#search', baseUrl, bundlePath: baseUrl + 'pagefind/', showSubResults: true, translations: { placeholder: 'Hledat jméno, místo…', zero_results: 'Nic nenalezeno pro [SEARCH_TERM]' } });
+      } else {
+        document.getElementById('search').textContent = 'Vyhledávání je dostupné až po sestavení webu (npm run build).';
+      }
+    });
+  </script>
+</Base>

@@ -1,0 +1,8 @@
+---
+import { pathFor } from '../lib/data.js';
+import Base from '../layouts/Base.astro';
+---
+<Base title="Nenalezeno">
+  <h1>Tahle stránka v rodokmenu není</h1>
+  <p><a href={pathFor('/')}>Zpět na úvod</a> nebo <a href={pathFor('/hledat/')}>hledat</a>.</p>
+</Base>
