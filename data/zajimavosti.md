@@ -1,8 +1,8 @@
 # Zajímavosti
 
-## Kovář mezi příbuznými a kmotry
+## Dvě zmínky o Škrdlovicích čp. 46
 
-Při Josefově narození roku 1880 se číslo 46 ve Škrdlovicích objevuje u jeho děda Jana Pospíchala i u kováře Josefa Mrkvičky, jehož jméno je takto pracovně přečtené v rubrice kmotrů. Obě zmínky jsou vodítkem k prozkoumání stejného domu a lidí kolem něj.
+V Josefově křestním zápisu z roku 1880 je u čp. 46 uveden jeho děd z matčiny strany Jan Pospíchal. Stejné číslo stojí u kmotra, jehož jméno je pracovně přečtené jako Josef Mrkvička. Matriční zápis uvádí u kmotra povolání kovář. Příbuzenská vazba kmotra k Novotným zůstává nedoložená.
 
 ## Tři čísla popisná Josefa Novotného
 

@@ -14,6 +14,19 @@ const cards = config.zajimavosti_na_uvodu ?? [];
 <Base title="" wide>
   <h1>{config.nazev || 'Rodokmen'}</h1>
 
+  <section class="note" aria-label="Kam sahá bádání">
+    <p><strong>Nejstarší nalezený zápis: 28. května 1787.</strong>
+      Ve Škrdlovicích čp. 37 je zapsaný Tomáš Novotný, syn sedláka Jakuba a Doroty.
+      Záznam velmi dobře odpovídá pozdějšímu manželovi Rozálie.
+      <a href={href.record('skrdlovice_krest_tomas_novotny_1787')}>Zápis z roku 1787</a>
+    </p>
+    <p><strong>Nejzazší stopa: Jakub Novotný, asi 1738.</strong>
+      Jde o odhad roku narození z věku v možném úmrtním zápisu z roku 1823.
+      Jakubův vlastní zápis narození zatím chybí.
+      <a href={href.record('skrdlovice_umrti_jakub_novotny_1823')}>Možný úmrtní zápis Jakuba</a>
+    </p>
+  </section>
+
   {!!(uvod.nadpis || uvod.odstavce?.length) && (
     <section class="teaser single">
       <div>

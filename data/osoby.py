@@ -2,7 +2,7 @@ P = {
     1: dict(n="Josef Novotný", y="1880–1953", sex="M", st="doc",
             f=["Narozen a pokřtěn 18. 1. 1880 ve Škrdlovicích čp. 77.",
                "Porodní bába Anna Jonáková ze Škrdlovic čp. 59, označená jako zkoušená. Křtil administrátor Jan Bělský.",
-               "Kmotři čteni jako Josef a Josefka Mrkvičkovi. Josef byl kovář ve Škrdlovicích čp. 46.",
+               "Kmotři čteni jako Josef a Josefka Mrkvičkovi. U kmotra je uveden kovář ze Škrdlovic čp. 46. Jeho příbuznost s Novotnými zatím není doložená.",
                "Ve sčítání 1921 je v čp. 109 v bytě 1 zapsaný jako majitel bytu. U něj i u jeho manželky je uvedeno čtení a psaní.",
                "Pozdější přípis u narození je čten jako úmrtí 29. 5. 1953 ve Škrdlovicích."],
             r=["skrdlovice_krest_josef_novotny_1880", "skrdlovice_scitani_novotni_1880", "skrdlovice_scitani_josef_novotny_1921", "skrdlovice_scitani_antonie_novotna_1921", "skrdlovice_snatek_josef_novotny_marie_kekulova_1940"],
