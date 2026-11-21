@@ -12,7 +12,7 @@ import { Content as Dotazy } from '../generated/dotazy.md';
     {issues.filter((i) => !i.text.startsWith('Vyřešeno')).map((i) => (
       <div class="card">
         <h3>{i.title}</h3>
-        <p class="small"><span class={`chip ${i.text.startsWith('Vyřešeno') ? 'st-doc' : i.text.startsWith('Hypotéza') ? 'st-prob' : 'st-unk'}`}>{i.text.split(':')[0]}</span> {i.text.slice(i.text.indexOf(':') + 1)}</p>
+        <p class="small">{i.text}</p>
       </div>
     ))}
   </div>

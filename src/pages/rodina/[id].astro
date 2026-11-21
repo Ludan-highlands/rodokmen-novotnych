@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import PersonLink from '../../components/PersonLink.astro';
 import Record from '../../components/Record.astro';
-import { people, families, lineByK, records, href } from '../../lib/data.js';
+import { people, families, lineByK, records, href, statusClass } from '../../lib/data.js';
 
 export function getStaticPaths() {
   return Object.keys(families).map((id) => ({ params: { id } }));
@@ -40,14 +40,18 @@ const title = [father?.name ?? (f.fatherUnknown ? 'otec neuveden' : 'neznámý o
     </>
   )}
 
-  <h2>Děti</h2>
+  <h2>Děti v této větvi</h2>
   <ul class="facts">
-    {children.map((c) => <li><PersonLink slug={c.slug} /> – přímý předek ({c.rel})</li>)}
+    {children.map((c) => <li><PersonLink slug={c.slug} /> <span class={`chip ${statusClass(c.st)}`}>{c.status}</span></li>)}
   </ul>
   {f.side.length > 0 && (
-    <div class="grid2">{f.side.map((s) => <div class="card"><h3>{s.name}</h3><p class="small">{s.text}</p></div>)}</div>
+    <>
+      <h2>Další děti a pravděpodobní sourozenci</h2>
+      <div class="grid2">{f.side.map((s) => <div class="card"><h3>{s.name}</h3><p class="small">{s.text}</p>
+        {s.records.length > 0 && <p class="small">{s.records.map((r, i) => <>{i > 0 && ' · '}<a href={href.record(r)}>{records[r].date}</a></>)}</p>}
+      </div>)}</div>
+    </>
   )}
-  <p class="small muted">Další sourozence zatím systematicky nehledáme – tady jsou jen ti, na které jsme narazili.</p>
 
   {f.records.length > 0 && (
     <>

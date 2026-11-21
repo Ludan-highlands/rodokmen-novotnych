@@ -1,9 +1,20 @@
 # Deník bádání
 
-## Doložené kroky
+## Josef, Erhard a Kateřina
 
-- Sčítací operáty sledují rodinu Novotných v čp. 6 v letech 1880 a 1890. V roce 1921 je Josef s rodinou doložen v čp. 109.
-- V oddací matrice Polničky byl dohledán sňatek Tomáše a Rozálie 30. ledna 1809. Ženich je zapsán jako syn sedláka Jakuba.
-- Zápis Kateřiny z 9. července 1822 ve Škrdlovicích čp. 37 odpovídá jmény obou rodičů a rokem uváděným v operátu 1880. Operát 1890 uvádí jiné datum.
-- V prohlížených částech matriky Škrdlovic, kniha 16533, snímky 93–97, se nepodařilo bezpečně najít smrt Rozálie před červencem 1828. Prověřen byl také příslušný výsek rejstříku pro Polničku. Původní úmrtní kniha pro Polničku 16647 zůstává k prohlédnutí.
-- Oddací zápis z roku 1940 potvrzuje data narození Josefa Novotného a Marie Kekulové a jmenuje rodiče i svědky.
+- Sčítání 1880 a 1890 zachycují rodinu v čp. 6. V archu z roku 1921 je Josef jako majitel bytu č. 1 v čp. 109. Pokračování domácnosti je na následujícím snímku. Oddací zápis z roku 1940 potvrzuje data narození Josefa Novotného a Marie Kekulové a jmenuje rodiče i svědky. [Sčítání 1921](/zdroj/skrdlovice_scitani_josef_novotny_1921/) · [Sňatek 1940](/zdroj/skrdlovice_snatek_josef_novotny_marie_kekulova_1940/)
+- Erhardův křest 1856 a sňatek 1879 shodně uvádějí Kateřininy rodiče. Ve sňatku je odkaz na dvě oddací přílohy i na dekret o zletilosti z května 1879. [Křest](/zdroj/velka_losenice_krest_erhard_novotny_1856/) · [Sňatek](/zdroj/skrdlovice_snatek_erhard_marie_1879/)
+- Údaj 9. července 1822 byl ověřen proti záhlaví a rejstříku v MZA, Vojnův Městec 16533, snímky 59–60, a 16550, snímek 71. V oddílu 1828–1829 na témže snímku rejstříku se další Kateřina Novotná nenašla. Narození a křest zůstávají časově nerozlišené. [Zápis 1822](/zdroj/skrdlovice_krest_katerina_novotna_1822/) · [Rejstřík](/zdroj/skrdlovice_index_katerina_novotna_1822/)
+- Operát 1880 uvádí 1822, operát 1890 uvádí 20. listopad 1829 a vlastnosti domácnosti včetně gramotnosti. Úmrtní matrika 1894, kniha 16547, snímek 250, uvádí stejné rodiče. Zapsaný věk naznačuje přibližně rok 1828. [Sčítání 1880](/zdroj/skrdlovice_scitani_katerina_novotna_1880/) · [Sčítání 1890](/zdroj/skrdlovice_scitani_katerina_novotna_1890/) · [Úmrtí](/zdroj/skrdlovice_umrti_katerina_novotna_1894/)
+
+## Tomáš, Rozálie a Jakub
+
+- V Polničce doložen sňatek Tomáše a Rozálie 30. ledna 1809. Datum velmi silně odpovídajícího Tomášova zápisu ve Škrdlovicích čp. 37 bylo upřesněno podle záhlaví a rejstříku na **28. března 1787**. [Sňatek 1809](/zdroj/polnicka_snatek_tomas_novotny_rozalie_skarohlidova_1809/) · [Zápis 1787](/zdroj/skrdlovice_krest_tomas_novotny_1787/)
+- Ve Škrdlovicích je doložen křest dcery Františky 1825 v čp. 35. Úmrtí dcery Tomáše stejného jména v čp. 12 v roce 1828 jí pravděpodobně odpovídá. Při další kontrole na snímku 97 knihy 16533 nalezeno velmi pravděpodobné úmrtí Rozálie z čp. 37 v únoru 1828. V červenci se Tomáš v témže čp. 37 ženil jako vdovec s Kateřinou Havelkovou. [Františčin křest](/zdroj/skrdlovice_krest_frantiska_novotna_1825/) · [Rozáliin pravděpodobný úmrtní zápis](/zdroj/skrdlovice_umrti_rozalie_novotna_1828/) · [Sňatek 1828](/zdroj/skrdlovice_snatek_tomas_novotny_katerina_1828/)
+- Světnovský sňatek 1774 uvádí Jakuba, Dorotu Hertíkovou a jejich otce Pavla Novotného a Matěje Hertíka. Ve Škrdlovicích v čp. 37 následně doloženy děti Josef 1776, Josefa 1777 a Jakub 1779. [Oddací zápis](/zdroj/svetnov_snatek_jakub_novotny_dorota_hertikova_1774/) · [Josef](/zdroj/skrdlovice_krest_josef_novotny_1776/) · [Josefa](/zdroj/skrdlovice_krest_josefa_novotna_1777/) · [Jakub](/zdroj/skrdlovice_krest_jakub_novotny_1779/)
+
+## Pavel, Šimon a škrdlovičtí jmenovci
+
+- První zápis roku 1715 na snímku 58 knihy 16508 dokládá křest Pavla a jeho rodiče Šimona a Kateřinu. Křest Apolonie 1740 a Pavlova svatba 1745 znovu jmenují Šimona. Úmrtní zápis hospodáře Pavla z čp. 37 roku 1771 je pravděpodobná shoda s Jakubovým otcem. [Křest 1715](/zdroj/skrdlovice_krest_pavel_novotny_1715/) · [Sňatek 1745](/zdroj/skrdlovice_snatek_pavel_novotny_veronika_1745/) · [Úmrtní zápis 1771](/zdroj/skrdlovice_umrtni_zapis_pavel_novotny_1771/)
+- Pravděpodobný pohřeb Veroniky je z roku 1746. Roku 1747 se vdovec Pavel oženil s Kateřinou Matějkovou. Zápisy z let 1749 a 1754 spojují Pavla s Matějkovými. Rok 1778 přidává ženicha Tomáše, dalšího syna zesnulého Pavla ze Škrdlovic. Jeho možné sourozenectví s Jakubem je otevřené. [Sňatek 1747](/zdroj/skrdlovice_snatek_pavel_novotny_katerina_matejkova_1747/) · [Křest 1754](/zdroj/skrdlovice_krest_katerina_novotna_1754/) · [Sňatek 1778](/zdroj/skrdlovice_snatek_tomas_novotny_viktorie_1778/)
+- V dosud čtených částech křtů knihy Vojnův Městec 16508, mimo jiné na snímcích 149–164 a 199–223, se Jakubův křest s otcem Pavlem nenašel. Jakub z roku 1751 na snímku 209 vpravo má za otce Havla Matějku zvaného Novotný. Sňatek Jakuba s Kateřinou, dcerou Petra Zezuly, z 20. listopadu 1746 na snímku 239 vpravo nedokládá spojení se ženichem z roku 1774. [Křestní snímek 209](https://www.mza.cz/actapublica/matrika/detail/7312?image=216000010-000253-003380-000000-016508-000000-00-B07472-02090.jp2) · [Oddací snímek 239](https://www.mza.cz/actapublica/matrika/detail/7312?image=216000010-000253-003380-000000-016508-000000-00-B07472-02390.jp2)

@@ -8,22 +8,19 @@ import { byK } from '../lib/data.js';
 import { frontmatter as pribeh } from '../generated/pribeh.md';
 const lineList = Object.values(lines).sort((a, b) => a.k - b.k);
 const uvod = config.uvod ?? {};
-const branch = [1, 2, 5, 10, 20].map((number) => byK[number]).filter(Boolean);
+const branch = [1, 2, 5, 10, 20, 40, 80].map((number) => byK[number]).filter(Boolean);
 const cards = config.zajimavosti_na_uvodu ?? [];
 ---
 <Base title="" wide>
   <h1>{config.nazev || 'Rodokmen'}</h1>
 
   <section class="note" aria-label="Kam sahá bádání">
-    <p><strong>Nejstarší nalezený zápis: 28. května 1787.</strong>
-      Ve Škrdlovicích čp. 37 je zapsaný Tomáš Novotný, syn sedláka Jakuba a Doroty.
-      Záznam velmi dobře odpovídá pozdějšímu manželovi Rozálie.
-      <a href={href.record('skrdlovice_krest_tomas_novotny_1787')}>Zápis z roku 1787</a>
+    <p><strong>Nejstarší nalezený matriční zápis je z 4. ledna 1715.</strong>
+      Jde o křest Pavla Novotného ve Škrdlovicích. Matrika jmenuje jeho rodiče Šimona Novotného a Kateřinu.
+      <a href={href.record('skrdlovice_krest_pavel_novotny_1715')}>Pavlův křest</a>
     </p>
-    <p><strong>Nejzazší stopa: Jakub Novotný, asi 1738.</strong>
-      Jde o odhad roku narození z věku v možném úmrtním zápisu z roku 1823.
-      Jakubův vlastní zápis narození zatím chybí.
-      <a href={href.record('skrdlovice_umrti_jakub_novotny_1823')}>Možný úmrtní zápis Jakuba</a>
+    <p>Sňatek z roku 1774 uvádí Jakubova otce Pavla ze Škrdlovic. Spojení s Pavlem pokřtěným roku 1715 je velmi pravděpodobné.
+      <a href={href.record('svetnov_snatek_jakub_novotny_dorota_hertikova_1774')}>Jakubův sňatek</a>
     </p>
   </section>
 
@@ -58,7 +55,7 @@ const cards = config.zajimavosti_na_uvodu ?? [];
   <div class="branch">
     {branch.map((person, index) => <>{index > 0 && <span aria-hidden="true">→</span>}<PersonLink slug={person.slug} /></>)}
   </div>
-  <p class="small muted">U Kateřiny a Tomáše karty vysvětlují, které vlastní zápisy dosud zůstávají kandidátní.</p>
+  <p class="small muted">Karty osob rozlišují údaje přímo doložené zápisem a pravděpodobná přiřazení. Otevřený zůstává vlastní zápis Kateřiny, matky Erharda, i křest Jakuba.</p>
 
   {cards.length > 0 && (
     <>

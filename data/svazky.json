@@ -1,92 +1,145 @@
 {
- "mza_16533": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Vojnův Městec, kniha 16533; Škrdlovice",
-  "popis": "N 1800–1833, O 1801–1841, Z 1800–1841. Oddaní sn. 1–24, narození sn. 25–78, zemřelí sn. 78–111 podle portálu.",
-  "url": "https://www.mza.cz/actapublica/matrika/detail/7331"
- },
- "mza_16535": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Vojnův Městec, kniha 16535; Škrdlovice",
-  "popis": "Zápis Josefa Novotného z 18. 1. 1880; v tomto sezení znovu čten místní výřez dodaný Luďkem.",
-  "url": "https://www.mza.cz/actapublica/matrika/detail/7333"
- },
- "mza_16642": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Žďár–zámek 16642, oddaní 1807–1853",
-  "popis": "Kniha po obcích. Polnička sn. 49–90; začátek na sn. 49 vpravo. Na sn. 50 je vlevo folio 2, vpravo folio 3. Samostatný rejstřík 16657.",
-  "url": "https://www.mza.cz/actapublica/matrika/detail/7485"
- },
- "mza_16657": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Žďár–zámek 16657, rejstřík oddaných 1807–1853",
-  "popis": "Samostatný abecední rejstřík pro šest obcí; 42 snímků. Písmeno N na sn. 21 vpravo, pokračování na sn. 22 vlevo; folio odkazuje na oddíl obce.",
-  "url": "https://www.mza.cz/actapublica/matrika/detail/7505"
- },
- "mza_16531": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Vojnův Městec 16531; Škrdlovice, N 1784–1791, O 1784–1790, Z 1784–1791",
-  "popis": "Narození sn. 1–10, oddaní 11–15, zemřelí 16–22 podle detailu archivu. Tomášův zápis 1787 na sn. 5 vpravo.",
-  "url": "https://www.mza.cz/actapublica/matrika/detail/7329"
- },
- "mza_16549": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Vojnův Městec 16549, rejstřík narozených 1779–1800",
-  "popis": "35 snímků, tři obce. Písmeno N na sn. 20 vpravo, v tomto kole přiblížena část 1784–1789.",
-  "url": "https://www.mza.cz/actapublica/matrika/detail/7342"
- },
- "mza_16552": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Vojnův Městec 16552, rejstříky; oddaní 1800–1901",
-  "popis": "149 snímků. V tomto kole pouze sn. 25 vpravo, oddíl N; zejména položky 1820–1840 a stopa Tomáše s Kateřinou 1828, list 14. Záhlaví uvádí též rejstřík narozených 1800–1829 a zemřelých 1800–1901.",
-  "url": "https://www.mza.cz/actapublica/matrika/detail/7344"
- },
- "mza_16661": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Žďár–zámek 16661, rejstřík zemřelých 1807–1853",
-  "popis": "73 snímků, 6 obcí včetně Polničky. V pátém kole orientace sn. 37–39 (M), podrobně sn. 40 vpravo, počátek N, zejména 1822–1828. Rozálie Novotná nebyla bezpečně identifikována; nejde o úplné prohledání celého rejstříku ani vlastní úmrtní matriky.",
-  "url": "https://www.mza.cz/actapublica/matrika/detail/7508"
- },
- "mza_scitani_HB1678": {
-  "archiv": "Moravský zemský archiv v Brně, archiv Havlíčkův Brod",
-  "portal": "MZA – Sčítací operáty",
-  "svazek": "HB1678, Škrdlovice, sčítání 1921; fond Okresní úřad Chotěboř",
-  "popis": "491 snímků; čp. 1–112 s mezerami podle katalogu. Čp. 109: sběrný domovní arch sn. 476, jeho rub 477; rodinný sčítací arch sn. 478, pokračování sn. 479. Ověřována domácnost Josefa Novotného.",
-  "url": "https://www.mza.cz/scitacioperaty/digisada/detail/12374"
- },
- "mza_16542": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Vojnův Městec, kniha 16542",
-  "popis": "Matrika oddaných 1919–1949, 260 snímků; zápis páru ze Škrdlovic na sn. 216.",
-  "url": "https://www.mza.cz/actapublica/matrika/detail/13258"
- },
- "mza_16392": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Velká Losenice, kniha 16392"
- },
- "mza_16541": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Acta Publica",
-  "svazek": "Vojnův Městec, kniha 16541"
- },
- "mza_JI0299": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Sčítací operáty",
-  "svazek": "Škrdlovice, sčítací operát JI0299"
- },
- "mza_HB1675": {
-  "archiv": "Moravský zemský archiv v Brně",
-  "portal": "MZA Sčítací operáty",
-  "svazek": "Škrdlovice, sčítací operát HB1675"
- }
+  "mza_16533": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec, kniha 16533; Škrdlovice",
+    "popis": "N 1800–1833, O 1801–1841, Z 1800–1841. Oddaní sn. 1–24, narození sn. 25–78, zemřelí sn. 78–111 podle portálu.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7331"
+  },
+  "mza_16535": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec, kniha 16535; Škrdlovice",
+    "popis": "Zápis Josefa Novotného z 18. 1. 1880; ověřeno čtením archivního výřezu.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7333"
+  },
+  "mza_16642": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Žďár–zámek 16642, oddaní 1807–1853",
+    "popis": "Kniha po obcích. Polnička sn. 49–90; začátek na sn. 49 vpravo. Na sn. 50 je vlevo folio 2, vpravo folio 3. Samostatný rejstřík 16657.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7485"
+  },
+  "mza_16657": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Žďár–zámek 16657, rejstřík oddaných 1807–1853",
+    "popis": "Samostatný abecední rejstřík pro šest obcí; 42 snímků. Písmeno N na sn. 21 vpravo, pokračování na sn. 22 vlevo; folio odkazuje na oddíl obce.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7505"
+  },
+  "mza_16531": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec 16531; Škrdlovice, N 1784–1791, O 1784–1790, Z 1784–1791",
+    "popis": "Narození sn. 1–10, oddaní 11–15, zemřelí 16–22 podle detailu archivu. Tomášův zápis 1787 na sn. 5 vpravo.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7329"
+  },
+  "mza_16549": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec 16549, rejstřík narozených 1779–1800",
+    "popis": "35 snímků, tři obce. Písmeno N na sn. 20 vpravo, v tomto kole přiblížena část 1784–1789.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7342"
+  },
+  "mza_16552": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec 16552, rejstříky; oddaní 1800–1901",
+    "popis": "149 snímků. V tomto kole pouze sn. 25 vpravo, oddíl N; zejména položky 1820–1840 a stopa Tomáše s Kateřinou 1828, list 14. Záhlaví uvádí též rejstřík narozených 1800–1829 a zemřelých 1800–1901.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7344"
+  },
+  "mza_scitani_HB1678": {
+    "archiv": "Moravský zemský archiv v Brně, archiv Havlíčkův Brod",
+    "portal": "MZA – Sčítací operáty",
+    "svazek": "HB1678, Škrdlovice, sčítání 1921; fond Okresní úřad Chotěboř",
+    "popis": "491 snímků; čp. 1–112 s mezerami podle katalogu. Čp. 109: sběrný domovní arch sn. 476, jeho rub 477; rodinný sčítací arch sn. 478, pokračování sn. 479. Ověřována domácnost Josefa Novotného.",
+    "url": "https://www.mza.cz/scitacioperaty/digisada/detail/12374"
+  },
+  "mza_16542": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec, kniha 16542",
+    "popis": "Matrika oddaných 1919–1949, 260 snímků; zápis páru ze Škrdlovic na sn. 216.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/13258"
+  },
+  "mza_16392": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Velká Losenice 16392, narození 1843–1866, 146 snímků",
+    "popis": "Velká Losenice 16392, narození 1843–1866, 146 snímků",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7202"
+  },
+  "mza_16541": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec 16541, oddaní 1842–1919, 330 snímků",
+    "popis": "Vojnův Městec 16541, oddaní 1842–1919, 330 snímků",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/1031"
+  },
+  "mza_JI0299": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Sčítací operáty",
+    "svazek": "Škrdlovice, sčítací operát JI0299"
+  },
+  "mza_HB1675": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Sčítací operáty",
+    "svazek": "Škrdlovice, sčítací operát HB1675"
+  },
+  "mza_16547": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec, kniha 16547; zemřelí 1842–1933",
+    "popis": "327 snímků. Oddíl Škrdlovice sn. 200–280 podle částí matriky. V tomto kole orientace sn. 246 a 251, cíleně sn. 250 vpravo, fol. 309.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/1032"
+  },
+  "mza_16550": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec 16550, rejstřík narozených 1800–1901",
+    "popis": "121 snímků, tři obce podle portálu. V tomto kole sn. 70 orientace N; sn. 71 cíleně ročník 1822 vlevo a ročníky 1828–1829 vpravo. Rejstřík odkazuje na stránky různých oddílů obcí.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7343"
+  },
+  "mza_scitani_JI0299": {
+    "archiv": "Moravský zemský archiv v Brně, archiv Jihlava",
+    "portal": "MZA – Sčítací operáty",
+    "svazek": "JI0299, Škrdlovice, sčítání 1880, fond Okresní hejtmanství Polná",
+    "popis": "514 snímků, čp. 1–107 podle katalogu. Kateřina řádek 4 na snímku, který prohlížeč označuje 17; URL souboru končí 00180.jp2. Rozdíl číslování ponechán. Čp. 6 ověřeno v pravém horním záhlaví.",
+    "url": "https://www.mza.cz/scitacioperaty/digisada/detail/5853"
+  },
+  "mza_scitani_HB1675": {
+    "archiv": "Moravský zemský archiv v Brně, archiv Havlíčkův Brod",
+    "portal": "MZA – Sčítací operáty",
+    "svazek": "HB1675, Škrdlovice, sčítání 1890, fond Okresní úřad Chotěboř",
+    "popis": "323 snímků, čp. 1–108 podle portálu. Škrdlovice čp. 6: sn. 23 arch popisný V, byt 1, osm osob; sn. 24 rub s prázdnými pokračovacími řádky a vyplněným soupisem skotu.",
+    "url": "https://www.mza.cz/scitacioperaty/digisada/detail/12371"
+  },
+  "mza_16510": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec, kniha 16510, narození, oddaní a zemřelí 1779–1784",
+    "popis": "39 snímků, tři obce. Oddaní sn. 2–8, narození sn. 10–27. Dubnový zápis ze Škrdlovic na sn. 11.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7314"
+  },
+  "mza_16509": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec 16509, narození, oddaní a zemřelí 1754–1779",
+    "popis": "223 snímků. Narození také na sn. 142–177, rejstřík narozených sn. 177–195, oddaní sn. 76–106. Písmeno N na sn. 184, pravá strana.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7313"
+  },
+  "mza_16633": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Žďár–zámek 16633, narození a oddaní 1772–1784, zemřelí 1772–1783",
+    "popis": "57 snímků, Polnička, Stržanov a Světnov. Oddaní pro Světnov sn. 46–48.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7478"
+  },
+  "mza_16508": {
+    "archiv": "Moravský zemský archiv v Brně",
+    "portal": "MZA Acta Publica",
+    "svazek": "Vojnův Městec 16508, narození, oddaní a zemřelí",
+    "popis": "281 snímků. Narození na sn. 2–90 a 127–223, oddaní sn. 91–107 a 223–250, zemřelí sn. 108–126 a 251–281. Narození v letech 1676–1754.",
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7312"
+  }
 }

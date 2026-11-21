@@ -201,9 +201,11 @@ def main():
         surname = ((P[m]["n"].split() or [""])[-1] if m in P else "").strip("()?")   # i zástupná matka bez jména
         mfacts = [x for x in P.get(f, {}).get("f", []) + P.get(m, {}).get("f", []) if x.startswith("×")]
         marriage = [x for x in mfacts if surname and surname[:5] in x] or mfacts
-        frec = P.get(f, {}).get("r", []) + P.get(m, {}).get("r", [])
+        father_records = P.get(f, {}).get("r", [])
+        mother_records = set(P.get(m, {}).get("r", []))
+        shared_records = [r for r in father_records if r in mother_records]
         child_rec = [r for r in P[k].get("r", []) if r in recs and recs[r]["kind"] == "N"]
-        rlist = [r for r in dict.fromkeys(frec) if r in recs and recs[r]["kind"] == "O"] + child_rec
+        rlist = [r for r in dict.fromkeys(shared_records) if r in recs and recs[r]["kind"] == "O"] + child_rec
         if fid in families:   # stejný pár potkán dvakrát (předek v rodokmenu vícekrát) – jedna rodina, víc dětí
             fam = families[fid]
             fam["children"].append(slugs[k])
@@ -294,15 +296,15 @@ def main():
 
     write(os.path.join(WEB, "src", "data", "site.json"), json.dumps(site, ensure_ascii=False, indent=1))
     gen_dir = os.path.join(WEB, "src", "generated")
+    base = os.environ.get("RODOKMEN_BASE", "/rodokmen-novotnych").rstrip("/")
     for src, dst in (("archivni_dotazy.md", "dotazy.md"), ("research_log.md", "denik.md"), ("zajimavosti.md", "zajimavosti.md")):
         path = os.path.join(DATA, src)
         text = open(path, encoding="utf-8-sig").read() if os.path.exists(path) else ""
-        write(os.path.join(gen_dir, dst), strip_comments(re.sub(r"^# .*\n", "", text, count=1)))
+        write(os.path.join(gen_dir, dst), strip_comments(re.sub(r"^# .*\n", "", text, count=1)).replace("](/zdroj/", f"]({base}/zdroj/"))
     story = os.path.join(DATA, "pribeh.md")
-    write(os.path.join(gen_dir, "pribeh.md"), strip_comments(open(story, encoding="utf-8-sig").read()) if has_story else "---\ntitle: Příběh\nlead: ''\n---\n")
+    write(os.path.join(gen_dir, "pribeh.md"), strip_comments(open(story, encoding="utf-8-sig").read()).replace("](/zdroj/", f"]({base}/zdroj/") if has_story else "---\ntitle: Příběh\nlead: ''\n---\n")
 
     hrefs = os.path.join(gen_dir, "fan_hrefs.json")
-    base = os.environ.get("RODOKMEN_BASE", "/rodokmen-novotnych").rstrip("/")
     json.dump({k: f"{base}/osoba/{s}/" for k, s in slugs.items()}, open(hrefs, "w", encoding="utf-8", newline="\n"))
     subprocess.run([sys.executable, "-I", "-X", "utf8", os.path.join(TOOLS, "fan_chart.py"),
                     os.path.join(gen_dir, "fan.svg"), "--web", hrefs], check=True, capture_output=True)
@@ -311,7 +313,7 @@ def main():
 
     # odkazy v textech, které nikam nevedou (adresa osoby se změní třeba doplněním roku narození: jan-novak → jan-novak-1798)
     targets = dict(osoba=people, zdroj=recs, rod=lines, rodina=families)
-    texts = {f: open(os.path.join(gen_dir, f), encoding="utf-8").read() for f in ("pribeh.md", "zajimavosti.md")}
+    texts = {f: open(os.path.join(gen_dir, f), encoding="utf-8").read() for f in ("pribeh.md", "zajimavosti.md", "denik.md", "dotazy.md")}
     texts["web.json"] = json.dumps(cfg, ensure_ascii=False)
     texts["osoby.py (hypotézy)"] = json.dumps(hypotheses, ensure_ascii=False)
     broken = [(f, m.group(0)) for f, t in texts.items()

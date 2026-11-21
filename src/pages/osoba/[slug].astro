@@ -48,10 +48,11 @@ const houses = addresses.filter((address) => address.people.includes(p.slug));
     </div>
     {p.child && (
       <div class="card">
-        <h3>{p.sex === 'M' ? 'Manželka' : 'Manžel'} a dítě v linii</h3>
-        <p>{p.spouse ? <PersonLink slug={p.spouse} /> : <span class="muted">{p.sex === 'F' && people[p.child]?.fatherUnknown ? 'otec dítěte neuveden' : 'neznámý partner'}</span>}<br />
+        <h3>Dítě v této větvi</h3>
+        <p>{p.spouse && <>Druhý rodič: <PersonLink slug={p.spouse} /><br /></>}
+          {!p.spouse && p.sex === 'F' && people[p.child]?.fatherUnknown && <>Otec dítěte neuveden<br /></>}
           {p.children.length > 1 ? 'Děti' : 'Dítě'}: {p.children.map((c, i) => <>{i > 0 && ', '}<PersonLink slug={c} /></>)}</p>
-        {p.ownFamily && <p class="small"><a href={href.family(p.ownFamily)}>Jejich rodina →</a></p>}
+        {p.ownFamily && <p class="small"><a href={href.family(p.ownFamily)}>Přehled rodiny →</a></p>}
       </div>
     )}
   </div>
